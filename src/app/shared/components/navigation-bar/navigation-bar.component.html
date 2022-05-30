@@ -1,0 +1,11 @@
+<div>
+    <ul>
+        <li *ngFor="let item of navigationLinks" routerLinkActive="active">
+            <a [routerLink]="item.link" [@fade]="currentState" (@fade.done)="animationFinished($event)">
+                {{item.title}}
+            </a>
+        </li>
+    </ul>
+
+    <h2>{{title}}</h2>
+</div>

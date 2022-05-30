@@ -1,0 +1,26 @@
+.table-wrapper {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.book-list__table {
+    width: 100%;
+
+}
+
+.book-list-image-container {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.book-list__image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 65px;
+}
+
+table th,
+table td {
+    padding: 0px 16px;
+}

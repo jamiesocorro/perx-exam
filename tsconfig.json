@@ -2,7 +2,21 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "baseUrl": "./",
+    "paths": {
+      "@modules/*": [
+        "src/app/modules/*"
+      ],
+      "@mocks/*": [
+        "src/app/mocks/*"
+      ],
+      "@models/*": [
+        "src/app/shared/models/*"
+      ]
+    },
+    "strictPropertyInitialization": false,
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,

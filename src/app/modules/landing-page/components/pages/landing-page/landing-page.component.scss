@@ -1,0 +1,33 @@
+.landingPage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-image: url("/assets/images/background.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    & .buttonContainer {
+        display: flex;
+        flex-direction: column;
+
+        & .booksButton {
+            align-self: center;
+
+            > button {
+                padding: 15px;
+                font-size: 1rem;
+                font-weight: bold;
+                color: white;
+                background-color: #1e88e5;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    
+}
+ 

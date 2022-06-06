@@ -48,7 +48,7 @@ export class BooksListComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.books$.subscribe(data => {
+    this.books$.subscribe((data: IBook[]) => {
       this.sortedData = data.slice();
       this.sortedDataBackup = this.sortedData
     });

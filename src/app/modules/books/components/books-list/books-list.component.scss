@@ -1,6 +1,8 @@
 .table-wrapper {
     width: 100%;
-    padding-bottom: 40px;
+    overflow-x: scroll;
+    height: 500px;
+    scrollbar-width: thin;
 }
 
 .book-list__table {
